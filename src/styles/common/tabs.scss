@@ -1,0 +1,41 @@
+.tabs-section {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.tabs {
+  width: 1000px;
+
+  &__controls {
+    display: flex;
+
+    &-item {
+      border: 1px solid #ccc;
+    }
+
+    &-link {
+      color: #333;
+      display: block;
+      padding: 5px;
+
+      &.active {
+        color: #00AAFF;
+      }
+    }
+  }
+
+  &__item {
+    border: 1px solid #ccc;
+    padding: 25px;
+    display: none;
+
+    &.active {
+      display: block;
+      height: 180px;
+    }
+
+    &-title {
+      margin-bottom: 10px;
+    }
+  }
+}

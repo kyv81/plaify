@@ -1,0 +1,48 @@
+section.search-section
+  h2.title Поиск
+  .search
+    .search__row
+      input.search__input#search(type=text name=search placeholder='Введите название')
+      select.search__select#select
+        option(value="choose") Выберите жанр
+        option(value="arcade") Аркада
+        option(value="race") Гонки
+        option(value="sport") Спорт
+        option(value="strategy") Стратегия
+    .search__content
+      .search__content-block.arcade
+        .search__content-pic
+          img.search__content-img(src="./assets/images/game_1.png")
+        .search__content-desc
+          h3.search__content-title.game Pac-Man
+          p.search__content-text Компьютерная игра в жанре аркада, разработанная компанией Namco и впервые вышедшая в 1980 году в Японии. До выхода «Pac-Man» большинство американских игр представляли собой космические шутеры, такие как «Space Invaders» или «Defender». «Pac-Man» же развил новый жанр игры — погони в лабиринте, не предполагающий насилия, а потому игра позиционировалась как для мальчиков, так и для девочек.
+      .search__content-block.race.sport
+        .search__content-pic
+          img.search__content-img(src="./assets/images/game_2.png")
+        .search__content-desc
+          h3.search__content-title.game F1 2017
+          p.search__content-text Это гоночная компьютерная игра, разработанная Codemasters, выпуск которой состоялся 25 августа 2017 года на платформах PlayStation 4, Xbox One и Windows.Игра основана на сезоне 2017 чемпионата Формулы-1.
+      .search__content-block.sport
+        .search__content-pic
+          img.search__content-img(src="./assets/images/game_3.png")
+        .search__content-desc
+          h3.search__content-title.game FIFA 18
+          p.search__content-text FIFA 18 — 25-я футбольная игра из серии игр FIFA, разработанная для платформ Windows, Nintendo Switch, PlayStation 4, PlayStation 3, Xbox One и Xbox 360. Игра выпущена компанией Electronic Arts 29 сентября 2017 года. Лицом игры является футболист мадридского «Реала» и сборной Португалии Криштиану Роналду.
+      .search__content-block.race
+        .search__content-pic
+          img.search__content-img(src="./assets/images/game_4.png")
+        .search__content-desc
+          h3.search__content-title.game Need for Speed: Payback
+          p.search__content-text Видеоигра серии Need for Speed в жанре аркадного автосимулятора, разработанная студией Ghost Games. Игра выпущена 10 ноября 2017 года компанией Electronic Arts для консолей PlayStation 4 и Xbox One, а также для персональных компьютеров под управлением Windows. Официальным дистрибьютором на территории России выступила компания «СофтКлаб».
+      .search__content-block.sport
+        .search__content-pic
+          img.search__content-img(src="./assets/images/game_5.png")
+        .search__content-desc
+          h3.search__content-title.game NBA 2K18
+          p.search__content-text NBA 2K18 is a basketball simulation video game developed by Visual Concepts and published by 2K Sports. It is the 19th installment in the NBA 2K franchise and the successor to NBA 2K17. It was released in September 2017 for Microsoft Windows, Nintendo Switch, PlayStation 4, PlayStation 3, Xbox One, and Xbox 360.
+      .empty-search#empty
+        .search__content-pic
+          img.search__content-img.controller(src="./assets/images/empty_search.png")
+        p.search__content-text Игр не найдено  
+      
+              
